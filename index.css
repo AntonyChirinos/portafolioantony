@@ -1,0 +1,401 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:arial;
+}
+.contprin{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.contenedor1{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://fondosmil.com/fondo/52714.jpg");
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:10px;
+}
+.header1{
+    width: 80%;
+    font-size: 1.5em;
+    gap:20vw;
+    display: flex;
+    margin:10px auto;
+}
+
+.barra>p{
+    display: inline;
+    margin:10px;
+    padding:10px;
+    text-align: justify;
+}
+a,a:visited{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.port{
+    font-size: 3em;
+    align-self:center;
+    margin: 40px auto;
+    text-decoration: underline red;
+}
+
+.info{
+    display: flex;
+    background-color: aliceblue;
+    width: 60vw;
+    margin:10px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 25px;
+    width: 50vw;
+}
+img{
+    width: 200px;
+}
+.info>img{
+    width:200px;
+    height:250px;
+}
+.inform{
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+}
+.hola{
+    background-color: red;
+    padding:10px;
+    width: 10vw;
+    text-align: center;
+}
+.hola>h3{
+    align-self: center;
+}
+
+.Inicio{
+    background-color: rgba(206, 10, 10, 0.788);
+}
+.bar1:hover{
+    padding: 15px;
+    background-color: rgba(150, 1, 1, 0.555);
+}
+
+/*pagina2*/
+.barra2>p{
+    display: inline;
+    margin:10px;
+    padding:10px;
+}
+.bar2:hover{
+    padding: 15px;
+    background-color: rgba(150, 1, 1, 0.555);
+}
+a,a:visited{
+    text-decoration: none;
+    color:black;
+
+}
+
+.contenedor2{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:10px;
+    background-size: cover;
+}
+.header2{
+    width: 80%;
+    font-size: 1.5em;
+    gap:20vw;
+    display: flex;
+    margin:10px auto;
+}
+
+.Resumen2{
+    background-color:rgba(206, 10, 10, 0.788);;
+}
+.port2{
+    font-size: 3em;
+    width: 35vw;
+    align-self:flex-start;
+    margin: 40px;
+    text-decoration: underline red;
+    background-color: rgba(198, 221, 241, 0.5);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.info2{
+    display: flex;
+    background-color: rgba(198, 221, 241, 0.5);
+    width: 60vw;
+    margin:10px ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 25px;
+    width: 50vw;
+    align-self: flex-start;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inform2{
+    width:30vw;
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.paginas{
+    justify-self: center;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    background:aqua;
+    width:5vw;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-size: 3em;
+    gap:10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.info2>img{
+    width:200px;
+    height:250px;
+}
+.conten2{
+    justify-content: space-between;
+    display:flex;
+    width: 90vw;
+    flex-direction: row;
+}
+.paginas>a>.fa-facebook-square:hover{
+    font-size: 2em;
+    color:rgb(13, 92, 209);
+}
+.paginas>a>.fa-twitter-square:hover{
+    font-size: 2em;
+    color:rgb(30, 157, 241);
+}
+.paginas>a>.fa-whatsapp-square:hover{
+    font-size: 2em;
+    color:rgb(8, 199, 8);
+}
+.paginas>a>.fa-instagram-square:hover{
+    font-size: 2em;
+    color:rgb(204, 17, 17);
+}
+
+/*Pagina 3*/
+.barra3>p{
+    display: inline;
+    margin:10px;
+    padding:10px;
+}
+.bar3:hover{
+    background-color: rgba(150, 1, 1, 0.555);
+    padding:15px;
+}
+a,a:visited{
+    text-decoration: none;
+    color:black;
+
+}
+
+.contenedor3{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/001/178/non_2x/hobbies-and-daily-life-icons-on-white-background-vector.jpg");
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:10px;
+    background-size: cover;
+}
+.header3{
+    width: 80%;
+    font-size: 1.5em;
+    gap:20vw;
+    display: flex;
+    margin:10px auto;
+}
+
+.Galería3{
+    background-color: rgba(206, 10, 10, 0.788);;
+}
+.port3{
+    font-size: 3em;
+    align-self:flex-start;
+    margin: 40px auto;
+    text-decoration: underline red;
+    background-color: rgba(198, 221, 241, 0.5);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.info3{
+    display: flex;
+    background-color: rgba(198, 221, 241, 0.5);
+    width: 60vw;
+    margin:10px ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 25px;
+    width: 50vw;
+    align-self: flex-start;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inform3{
+    width:30vw;
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.info3{
+    margin:1px auto;
+    width:58vw;
+    display:flex;
+    gap:20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.007);
+
+}
+.info3>img{
+    width: 170px;
+    height: 200px;
+}
+.port3{
+    font-size: 3em;
+    align-self:center;
+    margin: 10px auto;
+    text-decoration: underline red;
+}
+
+/*pagina 4*/
+.barra4>p{
+    display: inline;
+    margin:10px;
+    padding:10px;
+}
+.bar4:hover{
+    background-color: rgba(150, 1, 1, 0.555);
+    padding:15px;
+}
+a,a:visited{
+    text-decoration: none;
+    color:black;
+
+}
+
+.contenedor4{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/foto-gratis/iconos-contacto-empresarial-sobre-fondo-amarillo-representacion-3d_72104-3248.jpg");
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top:10px;
+    background-size: cover;
+}
+.header4{
+    width: 80%;
+    font-size: 1.5em;
+    gap:20vw;
+    display: flex;
+    margin:10px auto;
+}
+
+.Contacto4{
+    background-color: rgba(206, 10, 10, 0.788);;
+}
+.port4{
+    font-size: 2.5em;
+    align-self:flex-start;
+    margin: 40px auto;
+    text-decoration: underline red;
+    background-color: rgba(198, 221, 241, 0);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.form4{
+    width: 50vw;
+    height:60vh;
+    margin:20px;
+    padding:10px;
+    align-self: center;
+    justify-self: center;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.formp1>input,.asunto>input,textarea{
+    outline: none;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border: none;
+    border-bottom: 3px solid rgba(30, 135, 255, 0.945);
+    font: 1em sans-serif;
+    color: #999;
+  }
+  .formp1{
+    flex-direction: row;
+    display: flex;
+  }
+
+  .asunto{
+    align-self: center;
+    justify-self: center;
+  }
+  .asunto>input{
+    align-self: center;
+    justify-self: center;
+    width: 40vw;
+  }
+textarea{
+    width: 40vw;
+    height: 80vh;
+}
+.form4>button{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 3px solid rgba(30, 135, 255, 0.945);
+    font: 1em sans-serif;
+    color: rgb(168, 168, 168);;
+  }
